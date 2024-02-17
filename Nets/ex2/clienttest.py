@@ -1,0 +1,10 @@
+import socket
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(('10.100.102.6', 12340))
+s.send(b'Roy Ronen')
+data = s.recv(100)
+print("Server sent: ", data)
+s.send(b'215229865')
+data = s.recv(100)
+print("Server sent: ", data)
+s.close()
