@@ -1,0 +1,50 @@
+" --------------------------------- "
+
+
+" |       |       #       |       | "
+
+
+" |       |       #       |       |O"
+
+
+" |       |       #       |   O   | "
+
+
+" |       |       #   O   |       | "
+
+
+" |       |       O       |       | "
+
+
+" |       |   O   #       |       | "
+
+
+" |   O   |       #       |       | "
+
+
+"O|       |       #       |       | "
+
+
+" Player 1: ${var}         Player 2: ${var} "
+
+
+"       Player 1 played: ${player_1_guess}\n       Player 2 played: ${player_2_guess}\n\n"
+
+
+"PLAYER 1 PICK A NUMBER: "
+
+
+"NOT A VALID MOVE !"
+
+
+"PLAYER 2 PICK A NUMBER: "
+
+
+"PLAYER 1 WINS !"
+
+
+"PLAYER 2 WINS !"
+
+
+"IT'S A DRAW !"
+
